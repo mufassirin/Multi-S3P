@@ -39,7 +39,7 @@ CASP12 & CASP13: https://predictioncenter.org/
 - 30HMM from HHBlits v3.1.0
 - 7PCP 
 - 19PSP from [OPUS-PSP](https://www.sciencedirect.com/science/article/pii/S0022283607015045?casa_token=t78WkoWsEHcAAAAA:VRsI04nb9BRhs2gYtwcWw-mIesha-JxtrUnKnRrcsIbdoCrV7wjSaNppAiKBYH_YIsbq7azY2-c) 
-- m
+- 
 - Output: Secondary Structure Probabilities prot_name.csv
 
 ## Installation
