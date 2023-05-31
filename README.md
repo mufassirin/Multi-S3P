@@ -27,6 +27,7 @@ The Multi-S3P predictor underwent testing on a typical Ubuntu 18 computer with a
 
 ## Datasets
 
+
 ## Features
 
 
@@ -37,6 +38,9 @@ The Multi-S3P predictor underwent testing on a typical Ubuntu 18 computer with a
 1. ```$ git clone https://github.com/mufassirin/Multi-S3P.git ```
 2. ``` $ cd Multi-S3P ```
 
+### Download pretrained-model
+- Please download the pretrained model weights from dropbox [here](https://www.dropbox.com/scl/fo/pu9omax6s30ttb98ddazt/h?dl=0&rlkey=7gsdy48yiyuuzinsj7oxbva52)
+- Place it in the folder Multi-S3P
 
 
 
