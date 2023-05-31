@@ -27,9 +27,20 @@ The Multi-S3P predictor underwent testing on a typical Ubuntu 18 computer with a
 
 ## Datasets
 
+### Train, Validation, TEST2016 & TEST2018 are obtained from SPOT-1D and available at: [Dataset](https://sparks-lab.org/server/spot-1d/) 
+Cite: Hanson, J., Paliwal, K., Litfin, T., Yang, Y., & Zhou, Y. (2019). Improving prediction of protein secondary structure, backbone angles, solvent accessibility and contact numbers by using predicted contact maps and an ensemble of recurrent and residual convolutional neural networks. Bioinformatics, 35(14), 2403-2410.
+
+CASP12 & CASP13: https://predictioncenter.org/
 
 ## Features
 
+#### Input: (Total 76d)
+- 20PSSM from PSI-BLAST v2.10.0 
+- 30HMM from HHBlits v3.1.0
+- 7PCP 
+- 19PSP from [OPUS-PSP](https://www.sciencedirect.com/science/article/pii/S0022283607015045?casa_token=t78WkoWsEHcAAAAA:VRsI04nb9BRhs2gYtwcWw-mIesha-JxtrUnKnRrcsIbdoCrV7wjSaNppAiKBYH_YIsbq7azY2-c) 
+- m
+- Output: Secondary Structure Probabilities prot_name.csv
 
 ## Installation
 
@@ -40,8 +51,9 @@ The Multi-S3P predictor underwent testing on a typical Ubuntu 18 computer with a
 
 ### Download pretrained-model
 - Please download the pretrained model weights from dropbox [here](https://www.dropbox.com/scl/fo/pu9omax6s30ttb98ddazt/h?dl=0&rlkey=7gsdy48yiyuuzinsj7oxbva52)
-- Place it in the folder Multi-S3P
+- Place it in the folder Multi-S3P. or
 
+- ```wget https://www.dropbox.com/scl/fo/pu9omax6s30ttb98ddazt/h?dl=0&rlkey=7gsdy48yiyuuzinsj7oxbva52```
 
 
 
