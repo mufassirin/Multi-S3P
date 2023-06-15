@@ -8,7 +8,7 @@ The standalone version of Multi-S3P is available for public use for research pur
 - [Dependency](#dependency)
 - [Datasets](#datasets)
 - [Features](#features)
-- [Installation](#installation)
+- [Usage](#usage)
 - [License](#license)
 
 ## Introduction
@@ -39,10 +39,10 @@ CASP12 & CASP13: https://predictioncenter.org/
 - 30HMM from HHBlits v3.1.0
 - 7PCP 
 - 19PSP from [OPUS-PSP](https://www.sciencedirect.com/science/article/pii/S0022283607015045?casa_token=t78WkoWsEHcAAAAA:VRsI04nb9BRhs2gYtwcWw-mIesha-JxtrUnKnRrcsIbdoCrV7wjSaNppAiKBYH_YIsbq7azY2-c) 
-- 
-- Output: Secondary Structure Probabilities prot_name.csv
+ 
+- Output: Secondary Structure Probabilities (prot_name.csv)
 
-## Installation
+## Usage
 
 #### Download and Unzip Multi-S3P source package.
 
@@ -54,6 +54,7 @@ CASP12 & CASP13: https://predictioncenter.org/
 - Place it in the folder Multi-S3P. or
 
 - ```wget https://www.dropbox.com/scl/fo/pu9omax6s30ttb98ddazt/h?dl=0&rlkey=7gsdy48yiyuuzinsj7oxbva52```
+
 
 
 
